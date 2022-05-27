@@ -5,14 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table{
+            background-color: beige;
+            padding: 10px;
+        }
+        tr{
+            text-align: center;
+        }
+        button{
+            background-color: coral;
+        }
+    </style>
 </head>
 <body>
+    <table >
+        <form method=”post” action=”#”></form>
+
+            <tr>
+                <td>아이디</td>
+                <td><input type = "text" name = "userid" placeholder="아이디를 입력하세요"/></td>
+            </tr>
+            <tr>
+                <td>비밀번호</td>
+                <td><input type="text" name="userpass" placeholder="비밀번호를 입력하세요"/></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Login</button> <button type="submit">Join us</button></td>
+            </tr>
+        </form>
+    </table>
     <!--
         value="text" maxlength="20" 생략가능, value는 기본값
         placeholder 흐리게
     -->
-    <form method=”post” action=”#”>
-        아이디: <input type = "text" name = "userid" placeholder="아이디를 입력하세요"/>
-    </form>
 </body>
 </html>
