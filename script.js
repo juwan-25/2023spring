@@ -3,7 +3,7 @@
  * and cleaned of missing data.
  */
 async function getData() {
-    const carsDataResponse = await fetch('https://storage.googleapis.com/tfjs-tutorials/carsData.json');
+    const carsDataResponse = await fetch('carsData.json');
     const carsData = await carsDataResponse.json();
     const cleaned = carsData.map(car => ({
         mpg: car.Miles_per_Gallon,
@@ -78,7 +78,7 @@ async function trainModel(model, inputs, labels) {
     });
 
     const batchSize = 32;
-    const epochs = 1000;
+    const epochs = 500;
 
     return await model.fit(inputs, labels, {
         batchSize,
