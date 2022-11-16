@@ -21,6 +21,9 @@ function createModel() {
     // Add a single input layer
     model.add(tf.layers.dense({inputShape: [1], units: 1, useBias: true}));
 
+    //Add a hidden layer >> 딥러닝
+    model.add(tf.layers.dense({units: 1, useBias: true}));
+
     // Add an output layer
     model.add(tf.layers.dense({units: 1, useBias: true}));
 
@@ -155,6 +158,7 @@ async function run() {
     // Create the model
     const model = createModel();
     tfvis.show.modelSummary({name: 'Model Summary'}, model);
+
 
     // Convert the data to a form we can use for training.
     const tensorData = convertToTensor(data);
