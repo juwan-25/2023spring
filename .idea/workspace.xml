@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fe6a4fd-1960-47a1-b020-feab9ce95298" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Beans/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Beans/TestBean1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Beans/TestBean2.java" afterDir="false" />
+    <list default="true" id="bc0b71b0-6e12-4af0-b13e-31984f2d9e1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Beans/Jpop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Beans/Kpop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Beans/Music.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/hs/study/Beans/TestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/hs/study/Beans/TestBean1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/hs/study/Beans/TestBean2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
     </list>
@@ -39,7 +42,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2MlbVYt7YxoGnIWEIiEs4eddzgN" />
+  <component name="ProjectId" id="2Mzc8SAlbyHO0zMcGeTqCNKao7D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -75,11 +78,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7fe6a4fd-1960-47a1-b020-feab9ce95298" name="Changes" comment="" />
-      <created>1678345143881</created>
+      <changelist id="bc0b71b0-6e12-4af0-b13e-31984f2d9e1a" name="Changes" comment="" />
+      <created>1678773694493</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678345143881</updated>
+      <updated>1678773694493</updated>
     </task>
     <servers />
   </component>

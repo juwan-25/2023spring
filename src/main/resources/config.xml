@@ -12,7 +12,8 @@
 
 
 
-
+    <bean id="k1" class="kr.hs.study.Beans.Kpop"/>
+    <bean id="j1" class="kr.hs.study.Beans.Jpop"/>
 
 
 
