@@ -1,6 +1,6 @@
 package hs.kr.study.beans;
 
-public class BeseBall implements Sports{
+public class BaseBall implements Sports{
     String name;
     int player;
 
