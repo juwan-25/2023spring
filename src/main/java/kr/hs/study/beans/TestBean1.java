@@ -11,6 +11,27 @@ public class TestBean1 {
         this.data3 = "spring0";
     }
 
+    public TestBean1(int data1){
+        System.out.println("TestBean1의 int 데이터를 갖는 생성자");
+        this.data1 = data1;
+        this.data2 = 1.1;
+        this.data3 = "spring1";
+    }
+
+    public TestBean1(double data2){
+        System.out.println("TestBean1의 double 데이터를 갖는 생성자");
+        this.data1 = 2;
+        this.data2 = data2;
+        this.data3 = "spring2";
+    }
+
+    public TestBean1(String data3){
+        System.out.println("TestBean1의 String 데이터를 갖는 생성자");
+        this.data1 = 3;
+        this.data2 = 3.3;
+        this.data3 = data3;
+    }
+
     public void prData(){
         System.out.println("data1 : "+ data1);
         System.out.println("data2 : "+ data2);
