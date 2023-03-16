@@ -6,8 +6,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("config.xml");
-        TestBean1 obj1 = ctx.getBean("t1", TestBean1.class);
 
+        TestBean1 obj1 = ctx.getBean("t1", TestBean1.class);
         System.out.println("객체 주소 : "+obj1);
 
         ctx.close();
