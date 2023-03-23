@@ -39,5 +39,20 @@ public class Main {
         q6.prTri();
         System.out.println();
 
+        System.out.println("문제7");
+        Score q7= ctx.getBean("q7", Score.class);
+        q7.prScore();
+        System.out.println();
+
+        System.out.println("문제8");
+        sMaxMIn q8= ctx.getBean("q8", sMaxMIn.class);
+        q8.prMaxMin();
+        System.out.println();
+
+        System.out.println("문제9");
+        SumAvg20to50 q9= ctx.getBean("q9", SumAvg20to50.class);
+        q9.prSumAvg();
+        System.out.println();
+
     }
 }

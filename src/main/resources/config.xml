@@ -41,4 +41,23 @@
         <constructor-arg value="5" type="int"/>
     </bean>
 
+    <bean id="q7" class="kr.hs.study.beans.Score" lazy-init="true">
+        <constructor-arg value="97" type="int"/>
+        <constructor-arg value="96" type="int"/>
+        <constructor-arg value="100" type="int"/>
+    </bean>
+
+    <bean id="q8" class="kr.hs.study.beans.sMaxMIn" lazy-init="true">
+        <constructor-arg value="97" type="int"/>
+        <constructor-arg value="83" type="int"/>
+        <constructor-arg value="100" type="int"/>
+    </bean>
+
+    <bean id="q9" class="kr.hs.study.beans.SumAvg20to50" lazy-init="true">
+        <constructor-arg value="24" type="int"/>
+        <constructor-arg value="45" type="int"/>
+        <constructor-arg value="50" type="int"/>
+        <constructor-arg value="10" type="int"/>
+        <constructor-arg value="88" type="int"/>
+    </bean>
 </beans>
