@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	                    http://www.springframework.org/schema/beans/spring-beans.xsd
+	                    http://www.springframework.org/schema/context
+	                    http://www.springframework.org/schema/context/spring-context-5.0.2.xsd
+	                    http://www.springframework.org/schema/aop
+	                    http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <bean id="q1" class="kr.hs.study.beans.Order" lazy-init="true">
+        <property name="str1" value="집에"/>
+        <property name="str2" value="갈래"/>
+    </bean>
+
+    <bean id="q2" class="kr.hs.study.beans.SumAverage" lazy-init="true">
+        <property name="num1" value="10"/>
+        <property name="num2" value="3"/>
+        <property name="num3" value="23"/>
+    </bean>
+
+    <bean id="q3" class="kr.hs.study.beans.Compare" lazy-init="true">
+        <property name="num1" value="3"/>
+        <property name="num2" value="5"/>
+    </bean>
+
+    <bean id="q4" class="kr.hs.study.beans.Even" lazy-init="true">
+        <property name="num1" value="2"/>
+        <property name="num2" value="5"/>
+        <property name="num3" value="8"/>
+    </bean>
+
+    <bean id="q5" class="kr.hs.study.beans.Digit" lazy-init="true">
+        <property name="num1" value="88"/>
+    </bean>
+
+    <bean id="q6" class="kr.hs.study.beans.Tri" lazy-init="true">
+        <property name="num1" value="3"/>
+        <property name="num2" value="4"/>
+        <property name="num3" value="5"/>
+    </bean>
+
+    <bean id="q7" class="kr.hs.study.beans.Score" lazy-init="true">
+        <property name="num1" value="97"/>
+        <property name="num2" value="96"/>
+        <property name="num3" value="100"/>
+    </bean>
+
+    <bean id="q8" class="kr.hs.study.beans.sMaxMIn" lazy-init="true">
+        <property name="num1" value="97"/>
+        <property name="num2" value="83"/>
+        <property name="num3" value="100"/>
+    </bean>
+
+    <bean id="q9" class="kr.hs.study.beans.SumAvg20to50" lazy-init="true">
+        <property name="num1" value="24"/>
+        <property name="num2" value="45"/>
+        <property name="num3" value="50"/>
+        <property name="num4" value="10"/>
+        <property name="num5" value="88"/>
+    </bean>
+</beans>
