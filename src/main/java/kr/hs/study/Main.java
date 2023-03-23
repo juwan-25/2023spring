@@ -54,5 +54,6 @@ public class Main {
         q9.prSumAvg();
         System.out.println();
 
+        ctx.close();
     }
 }
