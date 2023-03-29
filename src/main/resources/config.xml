@@ -9,55 +9,13 @@
 	                    http://www.springframework.org/schema/context/spring-context-5.0.2.xsd
 	                    http://www.springframework.org/schema/aop
 	                    http://www.springframework.org/schema/aop/spring-aop.xsd">
-    <bean id="q1" class="kr.hs.study.beans.Order" lazy-init="true">
-        <constructor-arg value="집에" type="String"/>
-        <constructor-arg value="갈래" type="String"/>
+    <bean id="t1" class="kr.hs.study.beans.TestBean1">
+        <property name="data1" value="3"/>
     </bean>
 
-    <bean id="q2" class="kr.hs.study.beans.SumAverage" lazy-init="true">
-        <constructor-arg value="10" type="int"/>
-        <constructor-arg value="3" type="int"/>
-        <constructor-arg value="23" type="int"/>
-    </bean>
+    <bean id="t2" class="kr.hs.study.beans.TestBean2" scope="prototype"/>
 
-    <bean id="q3" class="kr.hs.study.beans.Compare" lazy-init="true">
-        <constructor-arg value="3" type="int"/>
-        <constructor-arg value="5" type="int"/>
-    </bean>
+    <bean id="t3" class="kr.hs.study.beans.TestBean3" lazy-init="true"/>
 
-    <bean id="q4" class="kr.hs.study.beans.Even" lazy-init="true">
-        <constructor-arg value="2" type="int"/>
-        <constructor-arg value="5" type="int"/>
-        <constructor-arg value="8" type="int"/>
-    </bean>
-
-    <bean id="q5" class="kr.hs.study.beans.Digit" lazy-init="true">
-        <constructor-arg value="88" type="int"/>
-    </bean>
-
-    <bean id="q6" class="kr.hs.study.beans.Tri" lazy-init="true">
-        <constructor-arg value="3" type="int"/>
-        <constructor-arg value="4" type="int"/>
-        <constructor-arg value="5" type="int"/>
-    </bean>
-
-    <bean id="q7" class="kr.hs.study.beans.Score" lazy-init="true">
-        <constructor-arg value="97" type="int"/>
-        <constructor-arg value="96" type="int"/>
-        <constructor-arg value="100" type="int"/>
-    </bean>
-
-    <bean id="q8" class="kr.hs.study.beans.sMaxMIn" lazy-init="true">
-        <constructor-arg value="97" type="int"/>
-        <constructor-arg value="83" type="int"/>
-        <constructor-arg value="100" type="int"/>
-    </bean>
-
-    <bean id="q9" class="kr.hs.study.beans.SumAvg20to50" lazy-init="true">
-        <constructor-arg value="24" type="int"/>
-        <constructor-arg value="45" type="int"/>
-        <constructor-arg value="50" type="int"/>
-        <constructor-arg value="10" type="int"/>
-        <constructor-arg value="88" type="int"/>
-    </bean>
+    <bean id="t4" class="kr.hs.study.beans.TestBean4" init-method="init" destroy-method="destroy" />
 </beans>
