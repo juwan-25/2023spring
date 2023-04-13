@@ -1,7 +1,32 @@
 package kr.hs.study;
 
+import kr.hs.study.config.BeanConfig;
+import kr.hs.study.dao.testDAO;
+import kr.hs.study.dto.testDTO;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(BeanConfig.class);
+
+        testDAO dao = ctx.getBean(testDAO.class);
+
+        testDTO t = new testDTO();
+//        t.setData1(2);
+//        t.setData2("Spring1");
+//
+//        dao.insert(t);
+//        System.out.println("Inserted");
+//
+//        t.setData1(2);
+//        t.setData2("Spring222222");
+//        dao.update(t);
+
+        t.setData1(1);
+        dao.delete(t);
+
+        System.out.println("Deleted");
+
+        ctx.close();
     }
 }
