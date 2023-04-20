@@ -1,5 +1,15 @@
-package kr.hs.study;public class Main {
+package kr.hs.study;
+
+import kr.hs.study.beans.TestBean;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("config.xml");
+
+        TestBean obj1 = ctx.getBean("t1", TestBean.class);
+        obj1.method1();
+
+        ctx.close();
     }
 }
